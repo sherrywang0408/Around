@@ -10,5 +10,5 @@ jobs:
       - run: |
           docker build -t luobo123/around .
           docker login -u="$DOCKERHUB_USERNAME" -p="$DOCKERHUB_PASSWORD"
-          docker push luo123/around
+          docker push luobo123/around
 
